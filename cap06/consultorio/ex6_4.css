@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+img{
+    float: left;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    border-bottom-style:inset ;
+}
+
+form{
+    position:left;
+    text-align: center;
+}
+pre{
+    font-size: 1.2em;
+}
+.fonte-azul{
+    color:blue;
+}

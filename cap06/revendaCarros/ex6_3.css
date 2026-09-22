@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+/* Formulário */
+form {
+    width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Textos dos campos */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
