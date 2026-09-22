@@ -1,0 +1,10 @@
+<script>
+    const numeros = [50, 100, 2];
+    numeros.sort(); // ela classifica por string ou seja analisa caracter por caracter ex: dois > cem em termo de letras 
+    console.log(numeros.join(", ")); // então vai imprimir 100, 2 , 50
+    // para reverte isso 
+    numeros.sort((a, b) => a - b);
+    console.log(numeros.join(", "));
+
+
+</script>
