@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
+
+h1 {
+
+    border-bottom-style: inset;
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+label {
+    display:grid;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input{
+   
+}
