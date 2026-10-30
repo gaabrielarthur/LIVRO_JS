@@ -15,3 +15,7 @@ form,input{
     text-align: left;
     display: block;
 }
+
+pre{
+    text-align: center;
+}
