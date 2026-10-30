@@ -29,7 +29,6 @@ frm.btListar.addEventListener("click", () => {
     }
  
     resp1.innerText = lista;
-
     frm.inName.value = ""; // esvazia a caixa de entrada 
     frm.inName.focus(); // colocar o curso dentro da caixa
 
@@ -60,8 +59,6 @@ frm.btMostrar.addEventListener("click" , ()=>{ // botão de escuta após o usuá
     frm.inNome.value = ""; //esvazia a caixa de entrada 
     frm.inNome.focus(); // colocar o cursor dentro da caixa 
 });
-
-
 //? explicação sobre como o sistema funciona  
 //!  console.log(times[0]);  Cruzeiro
 //!   console.log(times[1]);  Galo
