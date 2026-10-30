@@ -4,10 +4,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;  
 }
 
+
 h1{
     text-align: center;
     border-bottom-style: inset;
 }
+
 
 form,input{
     width: 180px;
@@ -15,6 +17,7 @@ form,input{
     text-align: left;
     display: block;
 }
+
 
 pre{
     text-align: center;
