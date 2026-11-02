@@ -25,6 +25,8 @@ frm.addEventListener("submit", (e) => {
     frm.inNumber.value = "";
     frm.inNumber.focus(); 
   
+
+    
 })
 
 // mostrar se está em ordem crescente ou decrescente 
