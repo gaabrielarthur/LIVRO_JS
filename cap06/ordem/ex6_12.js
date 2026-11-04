@@ -61,9 +61,11 @@ frm.btVerificar.addEventListener("click", () => {
 
     // Verifica o valor da variável crescente
     if (crescente) {
-        // se continuar true, mostra esta mensagemm
+        // se continuar true, mostra esta mensagem
         resp2.innerText = `Os números não estão em ordem cresente`;
+
     } else {
+
         resp2.innerText = `Os números  estão em ordem crescente`;
     }
 
