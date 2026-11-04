@@ -5,7 +5,10 @@ body{
 }
 h1{
     text-align: center;
-    border-bottom-style:inset ;
+    border-bottom-style:inset;
+}
+h2,h3{
+    text-align: center;
 }
 form{
     text-align: center;
