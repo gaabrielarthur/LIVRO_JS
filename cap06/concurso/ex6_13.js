@@ -12,7 +12,7 @@ frm.addEventListener("submit", (e) => {
     // Impede que a página seja recarregada ao enviar o formulário
     e.preventDefault();
 
-    
+
     const nome = frm.inName.value; // captura nome digitado pelo usuario 
     const acertos = Number(frm.inNumber.value); // Number() transforma o valor recebido em número
 
@@ -57,6 +57,6 @@ frm.btNext.addEventListener("click", () => {
     }
 
     // exibe os aprovados se nenhum for aprovado, apresenta uma mensagem alternativa
-    resp1.innerText = aprovados || "Nenhum candidato atingiu a nota miníma" ;
+    resp1.innerText = aprovados || "Nenhum candidato atingiu a nota miníma";
 
 });
