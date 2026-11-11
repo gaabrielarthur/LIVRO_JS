@@ -15,7 +15,7 @@ frm.addEventListener("submit", (e) => {
         alert("Digite algum número");
         return;
     }
-    // verifica se o número já foi digitado
+    // verifica se o número já foi digitado , retora verdadeiro ou falso 
     if (numeros.includes(number)) {
         alert("Este número já existe já foi adicionado na lista");
         return
